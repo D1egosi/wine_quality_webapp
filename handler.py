@@ -51,5 +51,5 @@ def predict():
 if __name__ == '__main__':
     #star flask
     port = os.environ.get('PORT', 5000)
-    app.run(host='192.168.15.91', port=port)
+    app.run(host='0.0.0.0', port=port)
 
